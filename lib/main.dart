@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/exercício 3.dart';
+import 'screens/exercicio_4.dart';
 
 void main() {
   runApp(const MeuApp());
@@ -15,9 +15,9 @@ class MeuApp extends StatelessWidget {
       title: 'Animações Flutter',
       theme: ThemeData(
         useMaterial3: true,
-        colorSchemeSeed: Colors.blue,
+        colorSchemeSeed: Colors.teal,
       ),
-      home: const ExercicoScreen(),
+      home: const Exercico4Screen(),
     );
   }
 }
